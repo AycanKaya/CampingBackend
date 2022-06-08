@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMO913gzho0+orvkBQLLBUQAAAAACAAAAAAAQZgAAAAEAACAAAAAETxaDzgv9FGjQRpcOhsKtbs6J21JBb29Bt4Jn/szFlgAAAAAOgAAAAAIAACAAAAAVNXP+qqFX8OtVAU+w2VrMeZRzBW6ht3CFTf6tb26It4AAAACxcrmUvzaeU4jfJDiyZqAgiKzW/PD+qTqxjPGPCmgG1VLPIWG7S5OjImkAaP0nkY96RT+W9+DmuIga9fDplsalGGmX5pWFnyi0zR77VuaLrxtvFy/WQk/PqyP+aNYZGkCYykinWlsinWuQS34H2b3D6E7IeinRNa3eEikyS+BJDkAAAAC0MApjCAhApllkuwYPnJji3oNrfOdjNlJPwi9M2M5mt3D3qYLqo6D8N9NGyfuTHEMjSbotwUiGdgCT8gC/VOkF</EncryptedPassword>
+    <History>True|2022-06-08T14:34:28.6228831Z;True|2022-06-08T17:30:09.3485043+03:00;True|2022-06-08T17:11:03.7905474+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Application.Context.ApplicationDbContext">
+      <Value>Data Source=tcp:campinbackendserver.database.windows.net,1433%3bInitial Catalog=WebApi_db%3bUser Id=aycan%40campinbackendserver%3bPassword=kayA1881</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

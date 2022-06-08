@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\Aycan\Desktop\Campin\Campin-server\OnionArchitecture\WebApi\obj\Release\net6.0\PubTmp\Out\" />
-  <dbfullsql path="C:\Users\Aycan\Desktop\Campin\Campin-server\OnionArchitecture\WebApi\obj\Release\net6.0\PubTmp\EFSQLScripts\Application.Context.ApplicationDbContext.sql" />
+  <IisApp path="C:\Users\Aycan\Desktop\FixBug\Campin-server\OnionArchitecture\WebApi\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Aycan\Desktop\FixBug\Campin-server\OnionArchitecture\WebApi\obj\Release\net6.0\PubTmp\EFSQLScripts\Application.Context.ApplicationDbContext.sql" />
 </sitemanifest>

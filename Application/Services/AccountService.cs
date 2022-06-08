@@ -53,11 +53,20 @@ namespace Application.Services
             {
                 throw new ApiException($"No Accounts Registered with {request.Email}.");
             }
-            var result = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, lockoutOnFailure: false);
-            if (!result.Succeeded)
+
+
+          var result = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, lockoutOnFailure: false);
+            
+           if (!result.Succeeded)
             {
-                throw new ApiException($"Invalid Credentials for '{request.Email}'.");
+                throw new ApiException($"Invalid Credentials for '{request.Email}'.Your password and your email address do not match.");
             }
+
+           
+
+
+
+
      /*       if (!user.EmailConfirmed)
             {
                 throw new ApiException($"Account Not Confirmed for '{request.Email}'.");
@@ -76,17 +85,42 @@ namespace Application.Services
             response.RefreshToken = refreshToken.Token;
             return new Response<AuthenticationResponse>(response, $"Authenticated {user.UserName}");
         }
-       
-        public async Task<Response<string>> GetUserWithId(string userId)
+
+        public async Task<Response<AuthenticationResponse>> GetUserWithId(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
-            if(user == null)
+            if (user == null)
             {
                 throw new ApiException($"This  user cannot be found !!! ");
             }
-            return new Response<string>(user.UserName);
+            JwtSecurityToken jwtSecurityToken = await GenerateJWToken(user);
+            AuthenticationResponse response = new AuthenticationResponse();
+            response.Id = user.Id;
+            response.JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
+            response.Email = user.Email;
+            response.UserName = user.UserName;
+
+            return new Response<AuthenticationResponse>(response, $"Authenticated {user.UserName}");
+         //   return new Response<ApplicationUser>(user);
 
         }
+        public async Task<Response<ApplicationUser>> UpdateUser(UpdateUserRequest request, string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                throw new ApiException($"This  user cannot be found !!! ");
+            }
+            user.FirstName = request.FirstName;
+            user.LastName = request.LastName;
+            user.PhoneNumber = request.PhoneNumber;
+            user.UserName = request.UserName;
+
+            return new Response<ApplicationUser>(user);
+
+        }
+
+
 
         public async Task<Response<string>> RegisterAsync(RegisterRequest request, string origin)
         {

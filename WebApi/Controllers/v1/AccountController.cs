@@ -61,7 +61,11 @@ namespace WebApi.Controllers
 
 
         }
-
+        [HttpPut("UpdateUser")]
+        public async  Task<IActionResult> UpdateUser(UpdateUserRequest request, string userId)
+        {
+            return Ok(await _accountService.UpdateUser(request, userId));
+        }
 
     }
 }

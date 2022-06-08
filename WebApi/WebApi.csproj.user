@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>WebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Aycan\Desktop\FixBug\Campin-server\OnionArchitecture\WebApi\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Aycan\Desktop\FixBug\Campin-server\OnionArchitecture\WebApi\Properties\PublishProfiles\CampinBackend - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

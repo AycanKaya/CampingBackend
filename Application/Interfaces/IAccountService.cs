@@ -1,6 +1,7 @@
 ﻿using Application.DTOs.Account;
 using Application.DTOs.Email;
 using Application.Wrappers;
+using Infrastructure.Identity.Models;
 using Microsoft.Extensions.Primitives;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace Application.Interfaces
         Task<Response<string>> ConfirmEmailAsync(string userId, string code);
         Task<Response<EmailRequest>> ForgotPassword(ForgotPasswordRequest model, string origin);
         Task<Response<string>> ResetPassword(ResetPasswordRequest model);
-        Task<Response<string>> GetUserWithId(string userId);
+        Task<Response<AuthenticationResponse>> GetUserWithId(string userId);
+        Task<Response<ApplicationUser>> UpdateUser(UpdateUserRequest request, string userId);
     }
 }

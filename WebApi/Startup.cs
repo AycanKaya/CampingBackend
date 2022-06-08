@@ -28,10 +28,19 @@ namespace WebApi
             services.AddApplication();
             services.AddControllers();
             services.AddPersistence(Configuration);
-            services.AddCors(c =>{
-                c.AddPolicy("AllowOrigin",options => options.AllowAnyOrigin()
-             );});
-            
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); ;
+                    });
+
+
+
+
+            });
+
             #region API Versioning
             // Add API Versioning to the Project
             services.AddApiVersioning(config =>
@@ -82,7 +91,7 @@ namespace WebApi
             }
 
             app.UseHttpsRedirection();
-            
+            app.UseCors();
             app.UseRouting();
             app.UseAuthorization();
 

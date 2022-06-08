@@ -96,9 +96,12 @@ namespace Application.Services
             JwtSecurityToken jwtSecurityToken = await GenerateJWToken(user);
             AuthenticationResponse response = new AuthenticationResponse();
             response.Id = user.Id;
-            response.JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
             response.Email = user.Email;
+            response.FirstName = user.FirstName;
+            response.LastName = user.LastName;
             response.UserName = user.UserName;
+            
+            
 
             return new Response<AuthenticationResponse>(response, $"Authenticated {user.UserName}");
          //   return new Response<ApplicationUser>(user);
@@ -115,7 +118,7 @@ namespace Application.Services
             user.LastName = request.LastName;
             user.PhoneNumber = request.PhoneNumber;
             user.UserName = request.UserName;
-
+            user.PhoneNumber=request.PhoneNumber;
             return new Response<ApplicationUser>(user);
 
         }
@@ -135,6 +138,7 @@ namespace Application.Services
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 UserName = request.UserName,
+                PhoneNumber=request.PhoneNumber,
                 
             };
             var userWithSameEmail = await _userManager.FindByEmailAsync(request.Email);

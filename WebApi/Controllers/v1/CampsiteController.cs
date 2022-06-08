@@ -27,6 +27,17 @@ public class CampsiteController : BaseApiController
     {
         return Ok(await Mediator.Send(new GetAllCampsiteQuery()));
     }
+
+
+
+    [HttpGet("GetCampsiteByLocations")]
+    public async Task<IActionResult> GetCampsiteByLocation(string locations)
+    {
+        return Ok(await Mediator.Send(new GetCampsiteByLocation { Location = locations}));
+    }
+
+
+
     /// <summary>
     /// Gets Product Entity by Id.
     /// </summary>

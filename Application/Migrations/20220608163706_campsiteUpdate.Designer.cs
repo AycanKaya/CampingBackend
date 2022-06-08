@@ -4,6 +4,7 @@ using Application.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Application.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220608163706_campsiteUpdate")]
+    partial class campsiteUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -164,7 +166,7 @@ namespace Application.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("CampsiteVacationSpotID")
+                    b.Property<int>("CampsiteID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -175,13 +177,12 @@ namespace Application.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CampsiteVacationSpotID");
+                    b.HasIndex("CampsiteID");
 
                     b.ToTable("Comment", (string)null);
                 });
@@ -540,7 +541,9 @@ namespace Application.Migrations
                 {
                     b.HasOne("Domain.Entities.Campsite", null)
                         .WithMany("Comments")
-                        .HasForeignKey("CampsiteVacationSpotID");
+                        .HasForeignKey("CampsiteID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Domain.Entities.HolidayDestination", b =>

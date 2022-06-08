@@ -15,6 +15,9 @@ namespace Application.Features.CampsiteFeatures.Commands
 
         public string Name { get; set; }
         public string Description { get; set; }
+
+        public string Location { get; set; }
+
         public int HolidayDestinationID { get; set; }
         public float Rate { get; set; }
         public string lat { get; set; }
@@ -44,6 +47,7 @@ namespace Application.Features.CampsiteFeatures.Commands
                 campsite.Comments = request.Comments;
                 campsite.Name = request.Name;
                 campsite.Description = request.Description;
+                campsite.Location = request.Location;
                 campsite.HolidayDestinationID = request.HolidayDestinationID;
                 campsite.Rate= request.Rate;
                 campsite.lng = request.lng;

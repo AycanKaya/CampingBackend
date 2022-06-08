@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMO913gzho0+orvkBQLLBUQAAAAACAAAAAAAQZgAAAAEAACAAAAB1O/ZCe6EWayJ34RDwWvet2vH7vKpwi/hj5dOkkw/2IgAAAAAOgAAAAAIAACAAAABW2RDZ2fSDqEEP3TDgblxlEhEa9TpDAwn5ZHBs3+IzN4AAAADjne/wVtmx7NtX8lj8gtlfYltzm3oyclF1Zub8rdeNNX3x42JnX/xCXT+bO6Z3llzZUxiY4m7LAzT3L/aebAGo52EUIbtCPZBD28ak4V71qngl1/HIRi1DSbJR0h0IwpkNooaaE+BWOLHB4wqG9LvLYjOJwD7b5VcU03x6gHlfMkAAAAAeMs8keO/z9d+4hSx6UrsggRhV3q9JXXaDkgWbun4aXs4eRTSGmFlMf1KfCJQIe3p5kHfLuK8k1Sv2Akrk9NJ1</EncryptedPassword>
+    <History>True|2022-06-06T10:39:48.2641375Z;True|2022-06-06T13:37:40.4969036+03:00;True|2022-06-04T23:21:49.4999350+03:00;True|2022-06-04T18:43:12.1435296+03:00;True|2022-06-04T18:37:50.6376467+03:00;True|2022-06-04T16:49:14.1097726+03:00;False|2022-06-04T16:43:35.2612343+03:00;False|2022-06-04T16:40:01.3450361+03:00;False|2022-06-04T16:29:44.4375434+03:00;True|2022-05-25T13:53:19.3030869+03:00;True|2022-05-25T13:51:27.6027462+03:00;True|2022-05-25T13:14:18.8169992+03:00;False|2022-05-25T13:11:20.2428173+03:00;False|2022-05-25T13:05:05.2810993+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Application.Context.ApplicationDbContext">
+      <Value>Data Source=tcp:campin-azuredbdbserver.database.windows.net,1433%3bInitial Catalog=Campin_Azuredb%3bUser Id=aycan%40campin-azuredbdbserver%3bPassword=kayA1881</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

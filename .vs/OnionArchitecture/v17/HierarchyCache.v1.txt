@@ -1,0 +1,420 @@
+﻿++Solution 'OnionArchitecture' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:OnionArchitecture.sln
+++Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+++Persistance
+i:{a7225d62-5f4e-45c0-be1d-41de0e574802}:Persistance
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\persistance\bin\debug\net6.0\persistance.dll
+++Dependencies
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:>668
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:>667
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>666
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1835
+++Analyzers
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:analyzers
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:analyzers
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:analyzers
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:analyzers
+++Frameworks
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:frameworks
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:frameworks
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:frameworks
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:frameworks
+++Packages
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:packages
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:packages
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:packages
+++Projects
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:projects
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:projects
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:projects
+++Microsoft.AspNetCore.App.Analyzers
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\users\aycan\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\persistance\microsoft.netcore.app
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\microsoft.netcore.app
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\microsoft.netcore.app
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (6.0.5)
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:>1910
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1880
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1856
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:>1911
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1881
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1857
+++Application
+i:{9e8b9b43-97d0-4770-bcdc-ac35c4a2bcb5}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\bin\debug\net6.0\application.dll
+i:{ad2f1490-41d2-473f-b121-ab1f22e6652d}:Application
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\bin\debug\net6.0\application.dll
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+++Domain
+i:{ad2f1490-41d2-473f-b121-ab1f22e6652d}:Domain
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\bin\debug\net6.0\domain.dll
+++Common
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\common\
+++Entities
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\
+++Settings
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\settings\
+++Account.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\common\account.cs
+++Bill.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\bill.cs
+++Campsite.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\campsite.cs
+++Card.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\card.cs
+++Comment.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\comment.cs
+++HolidayDestination.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\holidaydestination.cs
+++Link.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\link.cs
+++Order.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\order.cs
+++Payment.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\payment.cs
+++VacationSpot.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\entities\vacationspot.cs
+++JWTSettings.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\settings\jwtsettings.cs
+++MailSettings.cs
+i:{d7f22360-fb10-4c46-a5d6-64a8642afdca}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\domain\settings\mailsettings.cs
+++Properties
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\
+++Context
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\context\
+++DTOs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\
+++Account
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\
+++AuthenticationRequest.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\authenticationrequest.cs
+++AuthenticationResponse.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\authenticationresponse.cs
+++ForgotPasswordRequest.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\forgotpasswordrequest.cs
+++RefreshToken.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\refreshtoken.cs
+++RegisterRequest.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\registerrequest.cs
+++VerifyEmailRequest.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\account\verifyemailrequest.cs
+++Email
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\email\
+++Enums
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\enums\
+++Exceptions
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\exceptions\
+++Features
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\
+++Helpers
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\helpers\
+++AuthenticationHelper.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\helpers\authenticationhelper.cs
+++IpHelper.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\helpers\iphelper.cs
+++Interfaces
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\
+++IAccountService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\iaccountservice.cs
+++IApplicationDbContext.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\iapplicationdbcontext.cs
+++IAuthenticatedUserService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\iauthenticateduserservice.cs
+++IDateTimeService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\idatetimeservice.cs
+++IEmailService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\interfaces\iemailservice.cs
+++Migrations
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\
+++20220529081110_initialMigration.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\20220529081110_initialmigration.cs
+++20220531085325_addedNewTables.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\20220531085325_addednewtables.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\applicationdbcontextmodelsnapshot.cs
+++Models
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\models\
+++ApplicationUser.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\models\applicationuser.cs
+++Services
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\services\
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\services\
+++AccountService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\services\accountservice.cs
+++DateTimeService.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\services\datetimeservice.cs
+++Wrappers
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\wrappers\
+++DependencyInjection.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dependencyinjection.cs
+++ServiceExtensions.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\serviceextensions.cs
+++ServiceDependencies
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\servicedependencies\
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies\
+++serviceDependencies.json
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\servicedependencies.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies.json
+++serviceDependencies.local.json
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\servicedependencies.local.json
+++ApplicationDbContext.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\context\applicationdbcontext.cs
+++EmailRequest.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\dtos\email\emailrequest.cs
+++Roles.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\enums\roles.cs
+++ApiException.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\exceptions\apiexception.cs
+++ValidationException.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\exceptions\validationexception.cs
+++BillFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\
+++CampsiteFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\
+++CardFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\
+++OrderFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\
+++PaymentFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\
+++VacationSpotFeatures
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\
+++20220529081110_initialMigration.Designer.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\20220529081110_initialmigration.designer.cs
+++20220531085325_addedNewTables.Designer.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\migrations\20220531085325_addednewtables.designer.cs
+++PagedResponse.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\wrappers\pagedresponse.cs
+++Response.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\wrappers\response.cs
+++Azure.Core (1.24.0)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1895
+++EntityFramework (6.4.4)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1892
+++FluentValidation (11.0.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1886
+++FluentValidation.DependencyInjectionExtensions (11.0.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1879
+++jose-jwt (4.0.0)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1896
+++MediatR (10.0.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1885
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1861
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1893
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1863
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.5)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1890
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.5)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1887
+++Microsoft.EntityFrameworkCore.Relational (6.0.5)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1889
+++Microsoft.Extensions.Configuration.UserSecrets (6.0.0)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1878
+++Microsoft.Graph (4.29.0)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1888
+++Microsoft.NETCore.App (2.2.8)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1894
+++NETCore.MailKit (2.1.0)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1891
+++Newtonsoft.Json (13.0.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1883
+++Swashbuckle.AspNetCore (6.3.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1882
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1859
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:>1884
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1860
+++local
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\servicedependencies\local\
+++Commands
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\commands\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\commands\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\commands\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\commands\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\commands\
+++Queries
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\queries\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\queries\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\queries\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\queries\
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\queries\
+++Query
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\query\
+++Command
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\command\
+++mssql1.arm.json
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\properties\servicedependencies\local\mssql1.arm.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies\campinwebapi - web deploy\mssql1.arm.json
+++CreateBillCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\commands\createbillcommand.cs
+++DeleteBillCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\commands\deletebillcommand.cs
+++UpdateBillCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\commands\updatebillcommand.cs
+++GetAllBillQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\queries\getallbillquery.cs
+++GetBillQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\billfeatures\queries\getbillquery.cs
+++CreateCampsiteCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\commands\createcampsitecommand.cs
+++DeleteCampsiteCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\commands\deletecampsitecommand.cs
+++UpdateCampsiteCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\commands\updatecampsitecommand.cs
+++GetAllCampsiteQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\query\getallcampsitequery.cs
+++GetCampsiteQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\campsitefeatures\query\getcampsitequery.cs
+++CreateCardCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\command\createcardcommand.cs
+++DeleteCardCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\command\deletecardcommand.cs
+++UpdateCardCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\command\updatecardcommand.cs
+++GetAllCardsQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\queries\getallcardsquery.cs
+++GetCardQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\cardfeatures\queries\getcardquery.cs
+++CreateOrderCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\commands\createordercommand.cs
+++DeleteOrderCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\commands\deleteordercommand.cs
+++UpdateOrderCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\commands\updateordercommand.cs
+++GetAllOrdersQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\queries\getallordersquery.cs
+++GetOrderQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\orderfeatures\queries\getorderquery.cs
+++CreatePaymentCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\commands\createpaymentcommand.cs
+++DeletePaymentCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\commands\deletepaymentcommand.cs
+++UpdatePaymentCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\commands\updatepaymentcommand.cs
+++GetAllPaymentQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\queries\getallpaymentquery.cs
+++GetPaymentQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\paymentfeatures\queries\getpaymentquery.cs
+++CreateVacationSpotCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\commands\createvacationspotcommand.cs
+++DeleteVacationSpotCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\commands\deletevacationspotcommand.cs
+++UpdateVacationSpotCommand.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\commands\updatevacationspotcommand.cs
+++GetAllVacationSpotQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\queries\getallvacationspotquery.cs
+++GetVacationSpotQuery.cs
+i:{c6215526-545d-4036-bc37-6d02e48a9a4e}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\application\features\vacationspotfeatures\queries\getvacationspotquery.cs
+++Presentation
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++WebApi
+i:{4ba03bce-28ea-48b2-b472-f3138a551e1c}:WebApi
+++Connected Services 
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1836
+++Controllers
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\
+++v1
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\
+++BaseApiController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\baseapicontroller.cs
+++WeatherForecastController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\weatherforecastcontroller.cs
+++appsettings.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\appsettings.json
+++OnionArchitecture.xml
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\onionarchitecture.xml
+++Program.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\program.cs
+++Startup.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\startup.cs
+++WeatherForecast.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\weatherforecast.cs
+++SQL Server Database (ConnectionStrings:DefaultConnection)
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1920
+++PublishProfiles
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\publishprofiles\
+++launchSettings.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\launchsettings.json
+++AccountController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\accountcontroller.cs
+++BillController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\billcontroller.cs
+++CampsiteController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\campsitecontroller.cs
+++CardController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\cardcontroller.cs
+++OrderController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\ordercontroller.cs
+++PaymentController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\paymentcontroller.cs
+++VacationSpotController.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\controllers\v1\vacationspotcontroller.cs
+++AuthenticatedUserService.cs
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\services\authenticateduserservice.cs
+++appsettings.Development.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\appsettings.development.json
+++Dependency mssql1 is missing and needs to be configured for current profile.
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1921
+++Microsoft.AspNetCore.Analyzers
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Mvc.Versioning (5.0.0)
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1855
+++Microsoft.EntityFrameworkCore.Design (6.0.5)
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1858
+++Microsoft.EntityFrameworkCore.Tools (6.0.5)
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:>1862
+++CampinWebApi - Web Deploy.pubxml
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\publishprofiles\campinwebapi - web deploy.pubxml
+++FolderProfile.pubxml
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\publishprofiles\folderprofile.pubxml
+++CampinWebApi - Web Deploy
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies\campinwebapi - web deploy\
+++serviceDependencies.CampinWebApi - Web Deploy.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies.campinwebapi - web deploy.json
+++profile.arm.json
+i:{8cc0dcbf-a019-40bc-b2d3-f0fc2790b936}:c:\users\aycan\desktop\campin\campin-server\onionarchitecture\webapi\properties\servicedependencies\campinwebapi - web deploy\profile.arm.json

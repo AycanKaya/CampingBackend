@@ -1,0 +1,7 @@
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.AssemblyReference.cache
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfo.cs
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache

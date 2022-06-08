@@ -1,0 +1,5 @@
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\Application\obj\Debug\netcoreapp3.1\Application.csproj.AssemblyReference.cache
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\Application\obj\Debug\netcoreapp3.1\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\atakan\Source\Repos\AycanKaya\Campin-server\OnionArchitecture\Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Aycan\Desktop\Campin\Campin-server\OnionArchitecture\WebApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-05-24T14:37:40.6777255Z;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Application.Context.ApplicationDbContext">
+      <Value>Data Source=DESKTOP-O9F9V6N%3bInitial Catalog=onionDb%3bIntegrated Security=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

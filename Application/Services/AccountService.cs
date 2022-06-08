@@ -62,25 +62,18 @@ namespace Application.Services
                 throw new ApiException($"Invalid Credentials for '{request.Email}'.Your password and your email address do not match.");
             }
 
-           
-
-
-
-
-     /*       if (!user.EmailConfirmed)
-            {
-                throw new ApiException($"Account Not Confirmed for '{request.Email}'.");
-            } */
-
+   
             JwtSecurityToken jwtSecurityToken = await GenerateJWToken(user);
             AuthenticationResponse response = new AuthenticationResponse();
             response.Id = user.Id;
             response.JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
             response.Email = user.Email;
             response.UserName = user.UserName;
+            
             var rolesList = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
             response.Roles = rolesList.ToList();
             response.IsVerified = user.EmailConfirmed;
+            
             var refreshToken = GenerateRefreshToken(ipAddress);
             response.RefreshToken = refreshToken.Token;
             return new Response<AuthenticationResponse>(response, $"Authenticated {user.UserName}");
@@ -100,6 +93,8 @@ namespace Application.Services
             response.FirstName = user.FirstName;
             response.LastName = user.LastName;
             response.UserName = user.UserName;
+            response.PhoneNumber = user.PhoneNumber;
+          
             
             
 
@@ -118,7 +113,9 @@ namespace Application.Services
             user.LastName = request.LastName;
             user.PhoneNumber = request.PhoneNumber;
             user.UserName = request.UserName;
-            user.PhoneNumber=request.PhoneNumber;
+            
+            
+            
             return new Response<ApplicationUser>(user);
 
         }
@@ -139,12 +136,13 @@ namespace Application.Services
                 LastName = request.LastName,
                 UserName = request.UserName,
                 PhoneNumber=request.PhoneNumber,
-                
-            };
+                PhoneNumberConfirmed = true
+
+        };
             var userWithSameEmail = await _userManager.FindByEmailAsync(request.Email);
             if (userWithSameEmail == null)
             {
-                var result = await _userManager.CreateAsync(user, request.Password); //burda hata veriyor
+                var result = await _userManager.CreateAsync(user, request.Password); 
                
 
                 if (result.Succeeded)
@@ -162,9 +160,9 @@ namespace Application.Services
                         await _userManager.AddToRoleAsync(user, Roles.BASIC.ToString());
                     }
 
-                   
-                   
 
+
+                
                    
                     var verificationUri = await SendVerificationEmail(user, origin);
                     //TODO: Attach Email Service here and configure it via appsettings

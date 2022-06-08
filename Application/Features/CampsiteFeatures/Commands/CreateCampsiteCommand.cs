@@ -52,7 +52,12 @@ namespace Application.Features.CampsiteFeatures.Commands
                 campsite.Rate= request.Rate;
                 campsite.lng = request.lng;
                 campsite.lat = request.lat;
-                campsite.Links = request.Links;
+              //  campsite.Links = request.Links;
+                foreach(var link in request.Links)
+                {
+                    campsite.Links.Add(link);
+                }
+
                 campsite.OwnerID = request.OwnerID;
                 campsite.VacationSpotID = request.VacationSpotID;
                 campsite.ChildPrice = request.ChildPrice;

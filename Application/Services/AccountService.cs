@@ -94,6 +94,7 @@ namespace Application.Services
             response.LastName = user.LastName;
             response.UserName = user.UserName;
             response.PhoneNumber = user.PhoneNumber;
+            response.PhotoUrl = user.PhotoUrl;
           
             
             
@@ -113,7 +114,9 @@ namespace Application.Services
             user.LastName = request.LastName;
             user.PhoneNumber = request.PhoneNumber;
             user.UserName = request.UserName;
+            user.PhotoUrl = request.PhotoUrl;
             
+            await _userManager.UpdateAsync(user);
             
             
             return new Response<ApplicationUser>(user);
@@ -135,8 +138,10 @@ namespace Application.Services
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 UserName = request.UserName,
-                PhoneNumber=request.PhoneNumber,
-                PhoneNumberConfirmed = true
+                PhoneNumber = request.PhoneNumber,
+                PhoneNumberConfirmed = true,
+                PhotoUrl = "defaultUrl",
+                
 
         };
             var userWithSameEmail = await _userManager.FindByEmailAsync(request.Email);

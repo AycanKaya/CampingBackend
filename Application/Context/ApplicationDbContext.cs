@@ -27,6 +27,8 @@ namespace Application.Context
         public DbSet<Comment> Comments { get; set; }
         public DbSet<HolidayDestination> Holidays { get; set; }
         public DbSet<Link> Links { get; set; }
+        
+
         public async Task<int> SaveChanges()
         {
            

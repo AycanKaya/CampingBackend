@@ -26,6 +26,7 @@ namespace Application.Features.CampsiteFeatures.Queries
             {
                 var campsite = _context.Campsites.Where(a => a.VacationSpotID == query.VacationSpotID).FirstOrDefault();
                 if (campsite == null) return null;
+                
                 return campsite;
             }
         }

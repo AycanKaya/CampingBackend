@@ -17,11 +17,16 @@ namespace Application.Features.CampsiteFeatures.Queries
             }
             public async Task<IEnumerable<Campsite>> Handle(GetAllCampsiteQuery query, CancellationToken cancellationToken)
             {
+                
                 var campsites = await _context.Campsites.ToListAsync();
                 if (campsites == null)
                 {
                     return null;
                 }
+
+               
+
+               
                 return campsites.AsReadOnly();
             }
         }

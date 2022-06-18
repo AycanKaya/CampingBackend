@@ -1,6 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Application.Features.CampsiteFeatures.Commands;
 using Application.Features.CampsiteFeatures.Queries;
+using Application.Features.LinkFeatures.LinkQueries;
+
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Controllers;
